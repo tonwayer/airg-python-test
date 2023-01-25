@@ -1,4 +1,5 @@
 # Answer for python_test
+It runs best with python 3.10. But it would be okay with python 3.6+.
 
 ## How to run
 
