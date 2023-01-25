@@ -4,7 +4,21 @@
 
 ### Environment Setup
 - Install and activate virtual env
-- run `pip install -r requirements.txt` to install dependency packages
+  ```
+  pip install virtualenv
+  virtualenv env
+  ```
+  On windows
+  ```
+  source ./env/Script/activate
+  ```
+  On mac or unix
+  ```
+  source ./env/bin/activate
+  ```
+- Install dependency packages
+
+  `pip install -r requirements.txt`
 
 ### Run the solutions
 - Run `python solution_1.py` for the solution of the first problem
